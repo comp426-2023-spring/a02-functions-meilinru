@@ -52,10 +52,10 @@ async function main() {
 
 	if (days == 0) {
 		console.log ("today.");
-	} else if (days == 1) {
-		console.log ("tomorrow.");
-	} else {
+	} else if (days > 1) {
 		console.log (`in ${days} days.`);
+	} else {
+		console.log ("tomorrow.");
 	}
 	return 0;
 }
