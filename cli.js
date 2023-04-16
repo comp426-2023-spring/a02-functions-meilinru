@@ -38,7 +38,7 @@ async function main() {
 
 	if (args.j){
 		console.log(data);
-		return 0;
+		process.exit(0);
 	}
 
 	const days = args.d;
@@ -57,6 +57,6 @@ async function main() {
 	} else {
 		console.log ("tomorrow.");
 	}
-	return 0;
+        process.exit(0);	
 }
 main();
