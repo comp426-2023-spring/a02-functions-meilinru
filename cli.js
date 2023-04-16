@@ -51,13 +51,11 @@ const data = await response.json();
 console.log(data);
 
 let days;
-if (args.d) {
-	
+if (args.d) {	
 	days = args.d;
 } else if (args.d == 0) {
 	days = 0;
 } else {
-	let days = 1;
 	days = 1;
 }
 
